@@ -1,0 +1,17 @@
+def linearSearch(array, arr_size, elements_inside_arr):
+
+    
+    for i in range(0, n):
+        if (array[i] == elements_inside_arr):
+            return i
+    return None
+
+
+array = [2, 4, 0, 1, 9]
+elements_inside_arr = 4
+arr_size = len(array)
+result = linearSearch(array, arr_size, elements_inside_arr)
+if(result == None):
+    print("Element not found")
+else:
+    print("Element found at index: ", result)
